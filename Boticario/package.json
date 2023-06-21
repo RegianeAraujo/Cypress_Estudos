@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "cypress": "^12.15.0"
+  },
+  "name": "boticario",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress-wait-until": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
