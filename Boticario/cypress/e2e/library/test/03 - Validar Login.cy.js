@@ -21,17 +21,29 @@ describe('03 - Renner', () =>
         var dadosTeste = 
         {
             user: "bruno",
-            senha: " ",
+            senha: "1",
         }
         doLogin(dadosTeste);
     });
 
-    it('Fazendo Login utilizando c/ 1 caracter', () => {
+    it('Fazendo Login utilizando c/ 2 caracter', () => {
         cy.visit("");
 
         var dadosTeste = 
         {
-            cTitleMenu: " Financeiro "
+            user: "bruno",
+            senha: "12",
+        }
+        doLogin(dadosTeste);
+    })
+
+    it('Fazendo Login utilizando c/ 3 caracter', () => {
+        cy.visit("");
+
+        var dadosTeste = 
+        {
+            user: "bruno",
+            senha: "123 ",
         }
         doLogin(dadosTeste);
     })
