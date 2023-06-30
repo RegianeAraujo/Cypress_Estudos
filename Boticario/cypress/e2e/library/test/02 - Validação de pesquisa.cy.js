@@ -12,11 +12,3 @@ describe('02 - Renner', () => {
             .click()
     });
 });
-
-/*
-cy.get(".iconfont.icon-close.she-close")
-            .click()
-        cy.get("form > .flex > button")
-            .click()
-            .type("Calça jeans")
-*/
