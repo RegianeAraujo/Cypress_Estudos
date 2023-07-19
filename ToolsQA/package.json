@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "cypress": "^12.16.0"
+  },
+  "name": "toolsqa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress-wait-until": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
