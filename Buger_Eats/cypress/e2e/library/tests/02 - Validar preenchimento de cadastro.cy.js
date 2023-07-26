@@ -2,7 +2,7 @@ import { visitarCadastre_se } from "../functions/visitar";
 
 var cpf = require("gerador-validador-cpf");
 
-describe("02 -Formulário de Cadastro", () => 
+describe("02 -Formulário de Cadastro - Dados Válidos", () => 
 {
     beforeEach(() =>
     {
@@ -10,7 +10,7 @@ describe("02 -Formulário de Cadastro", () =>
     });
     context("02.1 - Validar cadastro completo e com dados válidos.", () =>
     {
-        it('02.1.1 - Validar visualização do alerta de sucessp', () => {
+        it('02.1.1 - Validar visualização do alerta de sucesso', () => {
             cy.get(".field")
                 .eq(0)
                 .should("be.visible")
